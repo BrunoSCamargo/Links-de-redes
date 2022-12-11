@@ -81,7 +81,6 @@ ul li a:hover {
 }
 
 footer  {
-
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -101,4 +100,23 @@ footer a {
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
+  color: #ffff;
+}
+
+.gradient-background {
+  background: linear-gradient(258deg,#0a3690,#cc0509);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
